@@ -9,6 +9,7 @@
         android:layout_weight="0"
         android:orientation="horizontal">
         <LinearLayout
+
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -17,6 +18,9 @@
             android:gravity="center_horizontal">
             <TextView
                 android:id="@+id/t1"
+                android:text="T1"
+                android:textSize="25sp"
+                android:gravity="center"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
@@ -32,6 +36,9 @@
             >
             <TextView
                 android:id="@+id/t2"
+                android:text="T2"
+                android:textSize="25sp"
+                android:gravity="center"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
@@ -47,6 +54,9 @@
             >
             <TextView
                 android:id="@+id/t3"
+                android:text="T3"
+                android:textSize="25sp"
+                android:gravity="center"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
@@ -56,7 +66,7 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="0"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,13 +77,15 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
             android:id="@+id/t4"
-            android:layout_width="0dp"
+            android:text="T4"
+            android:textSize="25sp"
+            android:layout_width="90dp"
             android:layout_height="50dp"
-            android:layout_weight="1"
+
             android:orientation="horizontal"
             android:background="#d8af97"
             android:gravity="center_vertical|center_horizontal"/>
-        <TextView
+        <Space
             android:id="@+id/spa1"
             android:layout_width="0dp"
             android:layout_height="50dp"
@@ -86,9 +98,11 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:id="@+id/t5"
-            android:layout_width="0dp"
+            android:text="T5"
+            android:textSize="25sp"
+            android:layout_width="90dp"
             android:layout_height="50dp"
-            android:layout_weight="1"
+
             android:orientation="horizontal"
             android:background="#d8af97"
             android:gravity="center_vertical|center_horizontal"/>
@@ -100,83 +114,14 @@
         android:orientation="horizontal">
         <TextView
             android:id="@+id/t6"
+            android:text="T6"
+            android:textSize="25sp"
+            android:gravity="center"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="1"
             android:layout_marginHorizontal="150dp"
             android:background="#d8af97"/>
-    </LinearLayout>
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_weight="0"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
-        <TextView
-            android:id="@+id/t98"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-
-            android:background="#00000"/>
-
-            <TextView
-                android:id="@+id/t7"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:layout_margin="20dp"
-                android:background="#d8af97"/>
-
-
-            <TextView
-                android:id="@+id/t8"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:layout_margin="20dp"
-                android:background="#d8af97"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
-
-        <TextView
-            android:id="@+id/t91"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:layout_margin="20dp"
-            android:background="#00"/>
-        <TextView
-            android:id="@+id/t9"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:layout_margin="0dp"
-            android:background="#d8af97"/>
-        <TextView
-            android:id="@+id/t92"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:layout_margin="20dp"
-            android:background="#00"/>
-        <TextView
-            android:id="@+id/t93"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:layout_margin="20dp"
-            android:background="#00"/>
     </LinearLayout>
     <Space
         android:layout_width="match_parent"
@@ -187,8 +132,89 @@
         android:layout_height="wrap_content"
         android:layout_weight="0"
         android:orientation="horizontal"
-        >
+        android:gravity="center_horizontal">
+        <Space
+            android:id="@+id/t98"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:background="#00000"/>
+
+            <TextView
+                android:id="@+id/t7"
+                android:text="T7"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="#d8af97"/>
+
+
+            <TextView
+                android:id="@+id/t8"
+                android:text="T8"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="#d8af97"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Space
+            android:id="@+id/t91"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="#00"/>
         <TextView
+            android:id="@+id/t9"
+            android:text="T9"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:background="#d8af97"/>
+        <Space
+            android:id="@+id/t92"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="#00"/>
+        <Space
+            android:id="@+id/t93"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="#00"/>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        >
+        <Space
             android:id="@+id/t111"
             android:layout_width="0dp"
             android:layout_height="50dp"
@@ -198,6 +224,8 @@
             android:gravity="center_vertical|center_horizontal"/>
         <TextView
             android:id="@+id/t10"
+            android:text="T10"
+            android:textSize="25sp"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="1"
@@ -206,13 +234,16 @@
             android:gravity="center_vertical|center_horizontal"/>
         <TextView
             android:id="@+id/t11"
+            android:text="T11"
+            android:textSize="25sp"
+
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="1"
             android:orientation="horizontal"
             android:background="#d8af97"
             android:gravity="center_vertical|center_horizontal"/>
-        <TextView
+        <Space
             android:id="@+id/t112"
             android:layout_width="0dp"
             android:layout_height="50dp"
